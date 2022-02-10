@@ -5,9 +5,9 @@ export const useUserStore = defineStore({
   state: () => ({
     name: 'Emma',
     doses: {
-      breakfast: 12,
-      lunch: 14,
-      dinner: 14
+      breakfast: 6,
+      lunch: 7,
+      dinner: 7
     },
     correction: {
       over: 150,
