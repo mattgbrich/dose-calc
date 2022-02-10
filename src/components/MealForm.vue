@@ -21,6 +21,7 @@ function updateBloodSugar(value) {
     mask="####" 
     class="meal-data-input" 
     type="tel"
+    :input-style="{ 'font-size': '20px' }"
   />
   <q-input 
     :model-value="calculations.bloodSugar" 
@@ -29,6 +30,7 @@ function updateBloodSugar(value) {
     mask="####" 
     class="meal-data-input" 
     type="tel"
+    :input-style="{ 'font-size': '20px' }"
   />
 </div>
 </template>
