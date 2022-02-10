@@ -20,7 +20,7 @@ function updateBloodSugar(value) {
     label="Carbs" 
     mask="####" 
     class="meal-data-input" 
-    type="number"
+    type="tel"
   />
   <q-input 
     :model-value="calculations.bloodSugar" 
@@ -28,7 +28,7 @@ function updateBloodSugar(value) {
     label="Blood Sugar" 
     mask="####" 
     class="meal-data-input" 
-    type="number"
+    type="tel"
   />
 </div>
 </template>
